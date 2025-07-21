@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>PhoneHub Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/login.css" />
+    <script src="/js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="login-container">
+      <h1 class="logo"><i class="fas fa-mobile-alt"></i> PhoneHub</h1>
+      <form class="login-form" action="/index.html">
+        <label>
+          <i class="fas fa-user"></i>
+          <input
+            type="text"
+            placeholder="Username"
+            required
+            class="username"
+          />
+        </label>
+        <label>
+          <i class="fas fa-lock"></i>
+          <input
+            type="password"
+            placeholder="Password"
+            required
+            class="password"
+          />
+          <button type="button" class="password-button">Show</button>
+        </label>
+        <button type="submit" class="login-button">Log In</button>
+        <p class="footer-text">
+          New user? <a href="#">Create Account</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>

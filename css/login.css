@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f5ebe0, #d6ccc2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  width: 320px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #7f5539; /* Soft brown */
+}
+
+.login-form label {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 16px 50px 16px 45px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  background: #fffaf0; /* Ivory */
+  outline: none;
+  font-size: 1rem;
+  color: #4a4a4a;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+  box-sizing: border-box;
+}
+
+.login-form i {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #7f5539;
+}
+
+.password-button {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #7f5539;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.login-form input.password {
+  padding-right: 100px; /* Space for show/hide button */
+}
+
+.login-button {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  background: #7f5539;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-button:hover {
+  background: #5c4033;
+}
+
+.footer-text {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.footer-text a {
+  color: #7f5539;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
+}
